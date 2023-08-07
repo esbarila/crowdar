@@ -1,0 +1,14 @@
+{
+  "name": "crowdar",
+  "version": "1.0.0",
+  "description": "Testing Challenge for Crowdar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "esbarila",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.3"
+  }
+}
