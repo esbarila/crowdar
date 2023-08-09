@@ -21,7 +21,7 @@ To avoid it I suggest running each test separately. `npm run shopping-cart` or `
 
 ## Reporting
 
-1. Plain text log: `npx run tests > resultOutput.log`
+1. Plain text log: `npm run tests > resultOutput.log`
 
 2. Mochawesome reporter:
    `npx cypress run --reporter mochawesome --reporter-options reportDir="cypress/results"` \
@@ -36,5 +36,5 @@ To avoid it I suggest running each test separately. `npm run shopping-cart` or `
 
 ## Screenshots & Videos
 
-- Videos will be generated and saved locally in the videos folder (/cypress/videos/)
+- Videos will be generated and saved locally in the videos folder: (/cypress/videos/)
 - Screenshots will be generated when test fail, stored here: (/cypress/screenshots/).
