@@ -24,12 +24,12 @@ To avoid it I suggest running each test separately. `npm run shopping-cart` or `
 1. Plain text log: `npx run tests > resultOutput.log`
 
 2. Mochawesome reporter:
-   `npx cypress run --reporter mochawesome --reporter-options reportDir="cypress/results"`
-   `npx mochawesome-merge "cypress/results/*.json" > mochawesome.json`
-   `npx marge mochawesome.json`
+   `npx cypress run --reporter mochawesome --reporter-options reportDir="cypress/results"` \
+   `npx mochawesome-merge "cypress/results/*.json" > mochawesome.json` \
+   `npx marge mochawesome.json` \
 
    Remember to delete mochawesome.json and temporary reporter files afer
-   `rm mochawesome.json`
+   `rm mochawesome.json` \
    `rm cypress/results/*.json`
 
    A new directory `mochawesome-report` will be generated and a neat html file will save the report.
