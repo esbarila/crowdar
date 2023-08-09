@@ -36,5 +36,5 @@ To avoid it I suggest running each test separately. `npm run shopping-cart` or `
 
 ## Screenshots & Videos
 
-- Videos will be generated and saved locally in the [videos folder](/cypress/videos/)
-- Screenshots will be generated when test fail, stored [here](/cypress/screenshots/).
+- Videos will be generated and saved locally in the videos folder [(/cypress/videos/)]
+- Screenshots will be generated when test fail, stored here: [(/cypress/screenshots/)].
