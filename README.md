@@ -26,7 +26,7 @@ To avoid it I suggest running each test separately. `npm run shopping-cart` or `
 2. Mochawesome reporter:
    `npx cypress run --reporter mochawesome --reporter-options reportDir="cypress/results"` \
    `npx mochawesome-merge "cypress/results/*.json" > mochawesome.json` \
-   `npx marge mochawesome.json` \
+   `npx marge mochawesome.json` 
 
    Remember to delete mochawesome.json and temporary reporter files afer
    `rm mochawesome.json` \
