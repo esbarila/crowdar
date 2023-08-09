@@ -15,7 +15,7 @@ In order see the test run in a browser (headed) do:
 
 `npm run test-headed`
 
-NOTE: as of now I'm dealing with a [cypress issue affecting test runs](github.com/cypress-io/cypress/issues/27501) which may be your case as well.
+NOTE: as of now I'm dealing with a [cypress issue affecting test runs](https://www,github.com/cypress-io/cypress/issues/27501) which may be your case as well.
 
 To avoid it I suggest running each test separately. `npm run shopping-cart` or `npm run login` (add `--headed` argument if you wish to see the run).
 
